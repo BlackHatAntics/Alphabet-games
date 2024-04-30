@@ -105,13 +105,13 @@ def ordering():
     outro(startGame, penalty)
 
 #prep
-gamemode = 'order' #This can be set via input(), button, or here manually. Up to you.
+gamemode = 'read' #This can be set via input(), button, or here manually. Up to you.
 if gamemode == 'read':
     numRounds = 6
 elif gamemode == 'add':
     numRounds = 10
 elif gamemode == 'order':
-    numRounds = 25 #1
+    numRounds = 25
 highscore = findHighscore() #Keeping it at global scope
 intro()
 
